@@ -7,6 +7,19 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>hiee all</h1>
+<%
+		String str = "Hello Everyone";
+%>
+<h1><%= str %></h1>
+<center>
+<% 
+	for(int i=1; i<=6; i++){
+		%>
+		<font size="<%= i  %>">Hello World</font><br>
+		<%
+	}
+		%>
+
+</center>
 </body>
 </html>
